@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam:wght@400;500;700&display=swap');
+
+*,
+*::before,
+*::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+input,button {
+    outline: none;
+    font-family: inherit;
+}
+
+body{
+    -moz-osx-font-smoothing: grayscale;
+    margin: 0;
+    --MainFont: 'Be Vietnam', sans-serif;
+
+    /* primary colors */
+    --BrightRed: hsl(12, 88%, 59%);
+    --DarkBlue: hsl(228, 39%, 23%);
+    
+    /* Neutral colors  */
+    --DarkGrayishBlue: hsl(227, 12%, 61%);
+    --VeryDarkBlue: hsl(233, 12%, 13%);
+    --VeryPaleWhite: hsl(13, 100%, 96%);
+    --VaryLightGray: hsl(0, 0%, 98%);
+
+    font-family: var(--MainFont);
+    overflow-x: hidden;
+}
+.fb {
+    font-weight: 700;
+    font-size: 2.431rem;
+    line-height: 1.12;
+    color: var(--DarkBlue);
+}
+img {
+    width: 100%;
+    object-fit: cover;
+}
+a{
+    text-decoration: none;
+}
+.fx{
+    display: flex;
+}
+
+.sb {
+    justify-content: space-between;
+}
+.se {
+    justify-content: space-evenly;
+}
+.ct{
+    text-align: center;
+}
+.jc{
+    justify-content: center;
+}
+.ai {
+    align-items: center;
+}
+ul{
+    list-style-type: none;
+}
+.fw {
+    line-height: 1.8;
+    font-weight: 300;
+    color: var(--DarkGrayishBlue);
+}
+.container{
+max-width: 83rem;
+position: relative;
+width: 100%;
+margin: 0 auto;
+}
+.px{
+    padding: 0 1.5rem;
+}
+.py{
+    padding: 2.25rem 0;
+}
+.fc{
+    flex-direction: column;
+}
